@@ -8,10 +8,10 @@ import java.util.List;
 
 @Logger
 public class BookDaoImpl implements BookDao {
-    @Override
-    public List getlist() {
 
-        System.out.println("书籍 列表");
+    @Override
+    public String getName() {
+        System.out.println("bookdao :  查询书名");
         return null;
     }
 }

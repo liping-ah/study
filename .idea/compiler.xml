@@ -7,11 +7,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="springquickstart" />
         <module name="demo" />
         <module name="springbootsty" />
-        <module name="spring01quickstart" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="spring01quickstart" target="8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
