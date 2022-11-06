@@ -10,6 +10,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>springbootsty</module>
+        <module>springquickstart</module>
     </modules>
 
     <properties>

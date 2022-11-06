@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="demo" />
         <module name="springbootsty" />
+        <module name="spring01quickstart" />
       </profile>
     </annotationProcessing>
   </component>
