@@ -9,11 +9,11 @@
         <outputRelativeToContentRoot value="true" />
         <module name="springquickstart" />
         <module name="demo" />
-        <module name="springbootsty" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="spring01quickstart" target="8" />
+      <module name="springbootsty" target="8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
