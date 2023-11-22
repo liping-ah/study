@@ -3,17 +3,12 @@
   <component name="CompilerConfiguration">
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
-      <profile name="Maven default annotation processors profile" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <module name="springquickstart" />
-        <module name="demo" />
-      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="demo" target="1.8" />
       <module name="spring01quickstart" target="8" />
       <module name="springbootsty" target="8" />
+      <module name="springquickstart" target="8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">

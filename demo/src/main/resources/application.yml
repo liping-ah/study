@@ -1,7 +1,0 @@
-server:
-  port: 10001
-
-spring:
-  redis:
-    host: 192.168.159.23
-    port: 6379
