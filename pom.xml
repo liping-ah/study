@@ -10,6 +10,7 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>basesty</module>
+        <module>springboot_01_quickstart</module>
     </modules>
 
 
